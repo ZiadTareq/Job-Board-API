@@ -1,17 +1,5 @@
 # README
 
-First time using Ruby 😎
-
-If you see the code as inconsistent, this is because I wrote it two times due to some bad choices in the first one, and I used bits from the first in the second 😅
-
-this is the app on heroku: https://zeyad-job-board-api.herokuapp.com
-Admin account: ziadtareq@outlook.com
-Password: 12345
-
-frontend: https://ziadtareq.github.io/job_board_frontend/
-
-And the api work like this:
-
 1) signup: /signup {method: POST}
     params [
         name: <YOUR_NAME>
@@ -67,13 +55,6 @@ And the api work like this:
 
 11) post job applications: /jobs/:job_id/applications {method: POST}
     * posting applications just for non admin users
-
-I did these from the bonus:
-``` screen shot in the Root for mailtrap ```
-* Send emails to the user (Job Seeker) once the application is seen (You can use MailTrap for this) 
-* Implement search for Jobs by title or creation date
-* Use ElasticSearch to search for keywords in the Job Description - ``` Elastic doesn’t run on Heroku ```
-* Implement a simple client using a frontend framework of your choice that consumes your API ``` code in https://github.com/ZiadTareq/job_board_frontend ```
 
 
 run tests: 
